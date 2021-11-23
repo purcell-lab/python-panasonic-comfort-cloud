@@ -218,7 +218,7 @@ class Session(object):
 
         return None
 
-    def history(self, id, mode, date, tz="+01:00"):
+    def history(self, id, mode, date, tz="+11:00"):
         deviceGuid = self._deviceIndexer.get(id)
 
         if(deviceGuid):
